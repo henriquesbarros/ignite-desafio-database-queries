@@ -5,7 +5,7 @@ import {
   ManyToMany,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
-} from 'typeorm';
+} from "typeorm";
 
 import { User } from '../../users/entities/User';
 
@@ -26,3 +26,4 @@ export class Game {
   @UpdateDateColumn()
   updated_at: Date;
 }
+
